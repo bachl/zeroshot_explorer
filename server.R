@@ -1,4 +1,10 @@
 # server.R
+library(shiny)
+library(shinythemes)
+library(httr2)
+library(jsonlite)
+library(tidyverse)
+
 server <- function(input, output, session) {
   
   # Build response format based on user input

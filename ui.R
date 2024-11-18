@@ -1,4 +1,10 @@
 # ui.R
+library(shiny)
+library(shinythemes)
+library(httr2)
+library(jsonlite)
+library(tidyverse)
+
 ui <- fluidPage(
   theme = shinytheme("flatly"),
   titlePanel("OpenAI Content Analysis"),
